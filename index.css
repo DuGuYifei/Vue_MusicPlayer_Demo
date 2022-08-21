@@ -17,13 +17,13 @@ dd {
 }
 
 .play_wrap {
-  width: 80%;
-  height: 100%;
+  width: 800px;
+  height: 544px;
   position: fixed;
   left: 50%;
   top: 50%;
-  margin-left: -40%;
-  margin-top: -18%;
+  margin-left: -400px;
+  margin-top: -272px;
   /* background-color: #f9f9f9; */
 }
 
