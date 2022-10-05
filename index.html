@@ -26,7 +26,7 @@
             <li v-for="item in musicList">
               <a href="javascript:;" @click="playMusic(item.id)"></a> 
               <b>{{ item.name }}</b> 
-              <span v-if="item.mvid!=0" @click="playMV(item.mvid)"><i></i></span>
+              <span v-if="item.mv!=0" @click="playMV(item.mv)"><i></i></span>
             </li>
           </ul>
           <img src="images/line.png" class="switch_btn" alt="">
