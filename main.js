@@ -56,6 +56,7 @@ var app = new Vue({
         },
         playMusic(id) {
             var that = this;
+			this.lyric = [];
             axios.get("https://netyicloudmusicapi.liuyifei.tech/song/url?id=" + id)
                 .then(function (response) {
                     that.musicUrl = response.data.data[0].url;
